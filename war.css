@@ -4,3 +4,7 @@ h1,p {
 body{
     background-color: lightskyblue;
 }
+hr {
+    height: 2px;
+    background-color: black;
+}
