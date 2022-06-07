@@ -8,3 +8,14 @@ hr {
     height: 2px;
     background-color: black;
 }
+.card-table{
+    background-color: green;
+    height: 750px;
+    width: 750px;;
+    border: solid .2rem black;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 2rem;
+   margin-left: 400px;
+
+}
