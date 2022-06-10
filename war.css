@@ -52,7 +52,7 @@ hr {
 }
 
 .text{
-    grid-column: span 3;
+    grid-column: span 2;
     color: red;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ hr {
 .card{
     position: relative;
     height: 100%;
-    width: 250%;
+    width: 100%;
     border: 3px solid black;
     border-radius: .5rem;
     display: flex;
