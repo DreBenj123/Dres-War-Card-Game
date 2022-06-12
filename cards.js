@@ -23,6 +23,14 @@ export default class Deck {
   get numberOfCards() {
     return this.cards.length;
   }
+  //functionality for getting top card and then returning new card to bottom of deck
+  pop() {
+    return this.cards.shift;
+  }
+  push(card) {
+    this.cards.push(card);
+  }
+
   // Creating Random deck shuffle
   shuffle() {
     for (let i = this.numberOfCards - 1; i > 0; i--) {
@@ -33,6 +41,7 @@ export default class Deck {
     }
   }
 }
+
 //Card In Play
 class Card {
   constructor(suit, value) {
@@ -42,7 +51,7 @@ class Card {
   get color() {
     return this.suit === "♣" || this.suit === "♠" ? "black" : "red";
   }
-
+  //rendering face up card
   getHTML() {
     const cardDiv = document.createElement("div");
     cardDiv.innerText = this.suit;
