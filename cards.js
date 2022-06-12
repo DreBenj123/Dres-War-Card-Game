@@ -25,7 +25,7 @@ export default class Deck {
   }
   //functionality for getting top card and then returning new card to bottom of deck
   pop() {
-    return this.cards.shift;
+    return this.cards.shift();
   }
   push(card) {
     this.cards.push(card);
