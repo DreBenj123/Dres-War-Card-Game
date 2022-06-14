@@ -23,7 +23,7 @@ export default class Deck {
   get numberOfCards() {
     return this.cards.length;
   }
-  //functionality for getting top card and then returning new card to bottom of deck
+  //functionality for getting top card and then returning new cards to bottom of deck
   pop() {
     return this.cards.shift();
   }

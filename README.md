@@ -9,5 +9,3 @@ The game ends when one player owns all the cards.
 I plan to have a relatively simple design.
 I want to have a green card table that sits in the middle of the users screen.
 In the surrounding border around the card table I want to have the rules of the game
-I want to include a scoreboard detailing wins, number of wars/won/lost
-I want the player to be able to enter in their name

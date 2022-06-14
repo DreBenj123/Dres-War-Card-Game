@@ -1,15 +1,21 @@
+*{
+    user-select: none;
+}
 h1,p {
     font-size:1.3rem;
+    color: white;
+
 }
 body{
-    background-color: lightskyblue;
+    background-image: url(https://media.istockphoto.com/vectors/casino-background-with-playing-card-suits-vector-id899020466?k=20&m=899020466&s=612x612&w=0&h=YBgiJc1AW694JhOCVY5RXNXAOl8Inuug1MYNi9STiOc=);
+
 }
 hr {
     height: 2px;
-    background-color: black;
+    background-color: white;
 }
 .card-table{
-    background-color: green;
+    background-image: url(https://media.istockphoto.com/photos/green-poker-table-felt-background-with-shade-vignette-picture-id1062424918?k=20&m=1062424918&s=170667a&w=0&h=xf2_CFIl1cy2b8gvwbzFaQ2S2f0rOCtEBAPOPFg3hoo=);
     height: 750px;
     width: 750px;
     border: solid .2rem black;
@@ -39,7 +45,6 @@ hr {
     font-size: 3rem;
     border-radius: .5rem;
     color: white;
-    user-select: none;
     
 
 }
@@ -53,12 +58,12 @@ hr {
 
 .text{
     grid-column: span 2;
-    color: red;
+    color: black;
     display: flex;
     justify-content: center;
     align-items:center;
-
-}
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 
 .card{
     position: relative;
@@ -88,7 +93,7 @@ hr {
 }
 .card::before{
     top:.5rem;
-    left:.5rem
+    left:.5rem;
 }
 
 .card::after{
@@ -98,4 +103,10 @@ transform:rotate(180deg);
 }
 ol{
     font: 1em sans-serif;
+    color:deepskyblue;
+    background-color:black;
+}
+h2{
+    color: deepskyblue;
+    background-color: black;
 }
