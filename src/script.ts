@@ -1,4 +1,4 @@
-import Deck from "./cards.js";
+import Deck  from "./cards";
 const CARD_VALUE_MAP = {
   2: 2,
   3: 3,
@@ -14,13 +14,13 @@ const CARD_VALUE_MAP = {
   K: 13,
   A: 14,
 };
-const computerCardSlot = document.querySelector(".computer-card-slot");
-const playerCardSlot = document.querySelector(".player-card-slot");
-const computerDeckElement = document.querySelector(".computer-deck");
-const playerDeckElement = document.querySelector(".player-deck");
-const text = document.querySelector(".text");
+const computerCardSlot : Element | null = document.querySelector(".computer-card-slot");
+const playerCardSlot : Element | null = document.querySelector(".player-card-slot");
+const computerDeckElement : Element | null = document.querySelector(".computer-deck");
+const playerDeckElement:  Element | null = document.querySelector(".player-deck");
+const text:  Element | null = document.querySelector(".text");
 
-let playerDeck, computerDeck, inPlay, stop;
+let playerDeck : any, computerDeck : any, inPlay: any, stop: any;
 var playerFaceUp, playerFaceDown, computerFaceUp, computerFaceDown;
 
 document.addEventListener("click", () => {
