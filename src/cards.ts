@@ -1,4 +1,6 @@
 //creating the deck
+let cards: Element | null
+let suit: Element | null
 const SUITS = ["♥", "♦", "♠", "♣"];
 const VALUES = [
   "A",
